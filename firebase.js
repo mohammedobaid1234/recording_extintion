@@ -1,12 +1,12 @@
 const firebaseConfig = {
-	apiKey: "AIzaSyCXTBZavWJ1srvIBmpmUYcct3Tl6hNb5G4",
-	authDomain: "accord-b4777.firebaseapp.com",
-	databaseURL: "https://accord-b4777-default-rtdb.firebaseio.com",
-	projectId: "accord-b4777",
-	storageBucket: "accord-b4777.appspot.com",
-	messagingSenderId: "339251259422",
-	appId: "1:339251259422:web:3e905173f4a96d4d82e60f",
-	measurementId: "G-P9G3F7WJXT"
+	apiKey: "",
+	authDomain: "",
+	databaseURL: "",
+	projectId: "",
+	storageBucket: "",
+	messagingSenderId: "",
+	appId: "",
+	measurementId: ""
   };
 
  firebase.initializeApp(firebaseConfig);
