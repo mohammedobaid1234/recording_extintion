@@ -1,0 +1,22 @@
+{
+    "name": "Recording Accord",
+    "version": "1.0.0",
+    "description": "Recording",
+    "author": "accord team",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Latest Covid Report"
+    },
+    "background": {
+      "service_worker": "firebase.js"
+    },
+      "content_scripts": [
+        {
+          "matches": ["<all_urls>"],
+          "js" : ["js/app.js"]
+        }
+      ]
+      ,
+      "manifest_version": 3
+     
+}
